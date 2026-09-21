@@ -192,9 +192,12 @@
 }
 @media(max-width:500px){
     .inicio{
+        margin: 1rem 2rem;
         .introducao{
-            h2{
-                color: aqua;
+            display: flex;
+            flex-direction: column;
+            .button_consultas{
+                margin-bottom: 10px;
             }
         }
     }
