@@ -47,6 +47,7 @@
         }
         .button_grafico{
             border: 1px solid rgba(0, 0, 0, 0.199);
+            color: rgb(73, 73, 110);
         }
         .button_grafico:hover{
             background-color: rgba(37, 35, 35, 0.014);
