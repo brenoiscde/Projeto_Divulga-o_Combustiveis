@@ -58,3 +58,23 @@
     background-color: #23c077;
     transform: translateY(-2px);
 }
+@media(max-width:950px){
+    body{
+        display: flex;
+        .home{
+            display: flex;
+            margin: 30px 2rem;
+
+            p{
+                margin-bottom: 20px;
+            }
+        }
+
+        #tabela{
+            width: 100%;
+            margin: auto 2rem;
+        }
+        
+    }
+    
+}
