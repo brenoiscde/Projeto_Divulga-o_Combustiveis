@@ -19,6 +19,7 @@
     gap: 25px;
     h3{
         font-size: 32px;
+        margin-top: 20px;
     }
     img{
         border-radius: 16px;
@@ -29,28 +30,36 @@
     flex-direction: column;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.349);
     border-radius: 16px;
-    padding: 20px 60px;
+    padding: 30px 5px;
     gap: 60px;
     align-items: center;
 }
 .tabela-container {
     width: 75%;
     max-width: 1100px;
+
     margin: 40px auto;
+
     overflow-x: auto;
-    background: white;
-    border-radius: 8px;
-    border: 1px solid #e2e8f0;
+    overflow-y: hidden;
+
+    -webkit-overflow-scrolling: touch;
 }
+
 
 #tabela {
     width: 75%;
+    min-width: 900px;
+
     border-collapse: collapse;
-    margin: 0 auto;
+
     font-family: Arial, sans-serif;
+
     table-layout: fixed;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.349);
-    border-radius: 16px;
+
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+
+    border-radius: 8px;
 }
 
 
@@ -100,4 +109,81 @@
 #tabela td:nth-child(1) {
     color: #008f5a;
     font-weight: 600;
+}
+
+@media(max-width: 1350px){
+    .lista_de_graficos{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 5rem;
+        align-items: center;
+        gap: 25px;
+    h3{
+        font-size: 32px;
+    }
+    img{
+        border-radius: 16px;
+        width: auto;
+    }
+}
+    .tabela_grafico{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.349);
+        border-radius: 16px;
+        padding: 20px 60px;
+        gap: 60px;
+        align-items: center;
+
+        img{
+            width: auto;
+        }
+}
+}
+@media (max-width: 950px) {
+
+    .home {
+        margin: 30px 2rem;
+    }
+    .lista_de_graficos{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem;
+        max-width: 20%;
+        .tabela_grafico{
+            padding: 1rem auto;
+            h3{
+                max-width: 50%;
+                flex-wrap: wrap;
+            }
+              .tabela-container {
+                padding: 1rem;
+                width: calc(100% - 30px);
+
+                margin: 30px auto;
+
+                overflow-x: auto;
+                overflow-y: hidden;
+    }
+        }
+    }
+
+    .home h2 {
+        font-size: 26px;
+    }
+
+    .tabela-grafico{
+        width: 20%;
+    }
+
+    #tabela {
+        width: 900px;
+        min-width: 900px;
+    }
+
+    #tabela th,
+    #tabela td {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
 }
