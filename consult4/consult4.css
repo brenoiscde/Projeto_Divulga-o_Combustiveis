@@ -1,0 +1,60 @@
+.home{
+    display: flex;
+    margin: 2rem 5rem;
+    flex-direction: column;
+
+    h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    p{
+        color: rgba(0, 0, 0, 0.637);
+    }
+
+    img{
+        margin-bottom: 50px;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+    }
+}
+.btn-download-consult4{
+    display: inline-block;
+    padding: 12px 20px;
+
+    background-color: #198050;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+
+.btn-download {
+    display: inline-block;
+    padding: 12px 20px;
+    
+    background-color: #163b63;
+    color: white;
+    
+    text-decoration: none;
+    border-radius: 8px;
+    
+    font-weight: 600;
+    
+    transition: 0.2s;
+}
+.btn-download:hover {
+    background-color: #245b8fbe;
+    transform: translateY(-2px);
+}
+
+.btn-download-consult4:hover {
+    background-color: #23c077;
+    transform: translateY(-2px);
+}
