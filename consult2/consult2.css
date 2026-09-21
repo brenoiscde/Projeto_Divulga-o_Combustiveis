@@ -19,17 +19,9 @@
     margin: 40px auto;
 
     overflow-x: auto;
-
-    background: #ffffff;
-    border-radius: 8px;
-
-    border: 1px solid #e2e8f0;
 }
 
 
-/* =========================
-   TABELA
-========================= */
 
 #tabela {
     width: 75%;
@@ -42,9 +34,7 @@
 }
 
 
-/* =========================
-   CABEÇALHO
-========================= */
+
 
 #tabela thead {
     background-color: #f1f5f9;
@@ -64,9 +54,7 @@
     white-space: nowrap;
 }
 
-/* =========================
-   CÉLULAS
-========================= */
+
 
 #tabela td {
     padding: 12px 10px;
@@ -81,9 +69,6 @@
 }
 
 
-/* =========================
-   LINHAS
-========================= */
 
 #tabela tbody tr {
     background-color: #ffffff;
@@ -108,10 +93,37 @@
 }
 
 
-/* =========================
-   ÚLTIMA LINHA
-========================= */
-
 #tabela tbody tr:last-child td {
     border-bottom: none;
+}
+
+@media (max-width: 950px) {
+
+    .home {
+        margin: 30px 2rem;
+    }
+
+    .home h2 {
+        font-size: 26px;
+    }
+
+    .tabela-container {
+        width: calc(100% - 30px);
+
+        margin: 30px auto;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    #tabela {
+        width: 900px;
+        min-width: 900px;
+    }
+
+    #tabela th,
+    #tabela td {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
 }
