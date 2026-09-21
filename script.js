@@ -31,3 +31,13 @@ fetch("./mock/info.json")
         })
     })
 
+
+const menuBtn = document.querySelector("#menu-btn");
+const navbar = document.querySelector("#navbar");
+
+menuBtn.addEventListener("click", () => {
+
+    navbar.classList.toggle("ativo");
+    menuBtn.classList.toggle("ativo");
+
+});
