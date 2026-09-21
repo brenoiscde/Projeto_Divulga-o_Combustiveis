@@ -1,0 +1,33 @@
+[
+    {
+        "Nome":"Evolução do preço médio de cada combustível",
+        "id_tbody":"dados-tabela",
+        "img":"../assets/grafico_precos_combustiveis.png"
+    },
+    {
+        "Nome":"Auto Posto Marlin LTDA",
+        "id_tbody":"dados-tabela2",
+        "img":"../assets/grafico_automarlin.png"
+    },
+    {
+        "Nome":"J.S Petróleo e Comercio LTDA",
+        "id_tbody":"dados-tabela3",
+        "img":"../assets/grafico_jspetroleo.png"
+    },
+    {
+        "Nome":"Posto Arvoredo LTDA",
+        "id_tbody":"dados-tabela4",
+        "img":"../assets/grafico_arvoredo.png"
+    },
+    {
+        "Nome":"Posto Atlantico LTDA",
+        "id_tbody":"dados-tabela5",
+        "img":"../assets/grafico_atlantico.png"
+    },
+    {
+        "Nome":"Posto Parada Vitoria LTDA",
+        "id_tbody":"dados-tabela6",
+        "img":"../assets/grafico_parada.png"
+    }
+    
+]

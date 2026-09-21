@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "Nome": "Menor e maior",
+        "Descrição": "Identifica, para cada tipo de combustível, o posto com o menor e o mair valor registrado, com endereço e data da coleta"
+    },
+    {
+        "id":2,
+        "Nome": "Média e quantidade de amostras",
+        "Descrição": "Preço médio e número de amostras coletas por posto e por tipo de combustível."
+    },
+    {
+        "id":3,
+        "Nome": "Preço mais recente",
+        "Descrição": "Último valor registrado para cada combinação de posto e combustível, com a data da coleta mais recente."
+    },
+    {
+        "id":4,
+        "Nome": "Evolução preços",
+        "Descrição": "Escolha um posto e um combustível e acompanha a variação do preço ao longo do tempo, em tabela e gráfico."
+    }
+
+]
