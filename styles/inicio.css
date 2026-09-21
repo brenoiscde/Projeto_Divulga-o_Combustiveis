@@ -1,0 +1,201 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 20rem;
+    
+    .introducao{
+        border-radius: 26px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.425);
+        padding: 45px 55px 55px 55px;
+        h3{
+            font-size: 15px;
+            margin: 20px 0px;
+            width:max-content;
+            background-color: blanchedalmond;
+            padding: 7px 10px;
+            border-radius: 10px;
+            font-weight: 400;
+            font-size: 15spx;
+        }
+        h2{
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        p{
+            width: 70%;
+            flex-wrap: wrap;
+            margin-bottom: 32px;
+        }
+        a{
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 16px;
+            padding: 20px 25px;
+            border-style: none;
+            margin: 0 15px 30px 0;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+            
+        }
+        .button_consultas{
+            background-color: rgb(73, 73, 110);
+            color: azure;
+        }
+        .button_consultas:hover{
+            background-color: rgba(73, 73, 110, 0.842);
+        }
+        .button_grafico{
+            border: 1px solid rgba(0, 0, 0, 0.199);
+        }
+        .button_grafico:hover{
+            background-color: rgba(37, 35, 35, 0.014);
+        }
+        
+    }
+    .consultas_disponiveis{
+        h2{
+            margin-bottom: 20px;
+        }
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+
+        .lista_consultas{
+            display: flex;
+            gap: 20px;
+            .consulta{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.349);
+                border-radius: 16px;
+                padding: 22px 30px;
+                max-width:60%;
+                justify-content: space-between;
+                transition: transform 0.3s ease;
+
+                h2{
+                    font-size: 25px;
+                    flex-wrap: wrap;
+                }
+                h3{
+                    background-color: blanchedalmond;
+                    padding: 5px 20px;
+                    border-radius: 10px;
+                    font-weight: 400;
+                    margin-bottom: 10px; 
+                    
+                }
+                p{
+                    width: 100%;
+                    flex-wrap: wrap;
+                    margin-bottom: 20px;
+                }
+                .abrir_consult{
+                    font-weight: 600;
+                    color: rgb(71, 71, 129);
+                    cursor: pointer;
+                }
+            }
+            .consulta:hover{
+                transform: translateY(-5px);
+                border: 1px solid;
+                border-color:rgb(71, 71, 129);
+                cursor: pointer;
+            }
+        }
+    }
+    .informacoes{
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+        
+        
+        .info{
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 3px rgba(2, 2, 2, 0.226);
+            padding: 20px 150px 20px 20px;
+            justify-content:left;
+            border-radius: 16px;
+            h3{
+                font-size: 32px;
+                color: rgb(73, 73, 110);
+                
+            }
+        }
+    }
+}
+@media(max-width:1500px){
+    .inicio{
+        margin: 2rem 7rem;
+        .introducao{
+            p{
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+        .consultas_disponiveis{
+            .lista_consultas{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            p{
+                max-width: 100%;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+            }
+            h2{
+                max-width: 80%;
+                flex-wrap: wrap;
+            } 
+            .consulta{
+                width:48.5%;
+            }
+        }
+        .informacoes{
+            flex-direction: column;
+        }
+    }
+}
+@media(max-width:1300px){
+    .inicio{
+        margin: 2rem 5rem;
+        .consultas_disponiveis{
+            .lista_consultas{
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                .consulta{
+                    width: 100%;
+                    max-width: 100%;
+
+                    p{
+                        max-width:100%;
+                        flex-wrap: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:650px){
+    .inicio{
+        .introducao{
+            button{
+                width: 100%;
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    .inicio{
+        .introducao{
+            h2{
+                color: aqua;
+            }
+        }
+    }
+}
